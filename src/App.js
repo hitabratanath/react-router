@@ -8,6 +8,8 @@ import NoMatch from "./NoMatch";
 import Products from "./Products";
 import NewProducts from "./NewProducts";
 import FeaturedProducts from "./FeaturedProducts";
+import Users from "./Users";
+import SearchParams from "./SearchParams";
 export default function App() {
   return (
     <>
@@ -20,6 +22,8 @@ export default function App() {
           <Route path="newprod" element={<NewProducts />} />
           <Route path="featuredprod" element={<FeaturedProducts />} />
         </Route>
+        <Route path="users/:userID" element={<Users />} />
+        <Route path="/search" element={<SearchParams />} />
         <Route path="*" element={<NoMatch />} />
       </Routes>
     </>

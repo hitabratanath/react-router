@@ -32,3 +32,15 @@
   grid-gap: 5px;
   margin-top: 10px;
 }
+.search-container {
+  justify-content: center;
+  margin-top: 20px;
+  display: flex;
+  grid-gap: 10px;
+}
+.true {
+  color: green;
+}
+.false {
+  color: red;
+}
