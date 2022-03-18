@@ -20,3 +20,15 @@
 .page-not-found {
   color: red;
 }
+.products {
+  margin-top: 3px;
+}
+.prod-heading a {
+  text-decoration: none;
+  color: grey;
+}
+.prod-heading {
+  display: flex;
+  grid-gap: 5px;
+  margin-top: 10px;
+}
