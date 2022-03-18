@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.nav-container {
+  border: black solid 2px;
+  padding: 10px;
+  background-color: grey;
+}
+.nav-container a {
+  margin: 5px;
+  font-size: 20px;
+  color: white;
+}
+.order-placed {
+  color: green;
+  margin: 20px;
+  text-align: center;
+}
+.page-not-found {
+  color: red;
+}
